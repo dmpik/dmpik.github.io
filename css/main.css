@@ -10,7 +10,10 @@
 
 /* Base */
 
-    body { font-family: 'Open Sans',sans-serif !important;
+    body { 
+	
+		font-size:16px;
+	font-family: 'Open Sans',sans-serif !important;
         /* Support for all WebKit browsers. */
         -webkit-font-smoothing: antialiased;
         /* Support for Safari and Chrome. */
@@ -38,7 +41,6 @@
     h5 { font-size: 20px;line-height: 24px; }
     h6 { font-size: 16px;line-height: 22px; }
     p { font-size: 16px;line-height: 22px; }
-
 	.wrap {padding:10px 40px;}
     .pix-inline-block { display: inline-block; }
     .big-text-60 { font-size: 60px;line-height: 86px; }
@@ -480,7 +482,9 @@
 
     .pix-relative { position: relative; }
 
-
+	.container ul:not(.nav) {border-left: 3px solid #ff5b0b; margin-left: 20px; padding-left:15px; }
+	.container ul:not(.nav) li {list-style-type: none;}
+	.container ul:not(.nav) li:before {color:#444;content: "\25A0"; padding-right:10px}
 
     /* original */
     .pix-original-1 { background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)),url('/images/original/bg_main1.jpg');background-size: cover;background-position: center; }
