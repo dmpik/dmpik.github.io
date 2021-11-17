@@ -664,6 +664,7 @@
 
     /* Slider */
     .pix_accordion .panel-title { color: #444; font-weight:bold;}
+	.pix_accordion .panel-title a {display:block;}
 
     /* Header */
     .pix-fixed-top { position: fixed;top: 0;width: 100%;z-index: 99999; }
