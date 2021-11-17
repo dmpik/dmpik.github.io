@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-12 col-xs-12">
 			   <h2 id="история-развития-событий">История развития событий</h2>
-				<p class="q-item">Всё обсуждение ведется в <a href="https://t.me/dmpik_live" target="_blank">чате</a>. Ответы на частые вопросы в <a href="/faq/">FAQ</a>.</p>
+				<p class="q-item">Всё обсуждение ведется в <a href="https://t.me/dmpik_live" target="_blank" class="telegram">чате</a>. Ответы на частые вопросы в <a href="/faq/">FAQ</a>.</p>
 			</div>				
 		</div>
 	</div>
