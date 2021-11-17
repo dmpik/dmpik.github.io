@@ -15,7 +15,7 @@
 	<div class="pix_section pix_nav_menu pix_scroll_header normal pix-padding-v-10" data-scroll-bg="#fff">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 col-xs-12 pix-inner-col col-sm-10">
+				<div class="col-md-12 col-xs-12 pix-inner-col col-sm-12">
 					<div class="pix-content">
 						<nav class="navbar navbar-default pix-no-margin-bottom pix-navbar-default">
 							<div class="container-fluid">
