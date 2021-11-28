@@ -1,3 +1,8 @@
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-Z8EZL27WWK');
+
 function copyLink(id) {
     var elem = document.createElement("textarea");
     document.body.appendChild(elem);
