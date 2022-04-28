@@ -115,7 +115,7 @@ var RLottie = (function () {
         console.log(dT(), 'tgsticker init');
         apiInitStarted = true;
         var workersRemain = rlottie.WORKERS_LIMIT;
-        var firstRlottieWorker = rlottieWorkers[0] = new QueryableWorker('/js/tgsticker-worker.js?12');
+        var firstRlottieWorker = rlottieWorkers[0] = new QueryableWorker('./js/tgsticker-worker.js?12');
         firstRlottieWorker.addListener('ready', function () {
           console.log(dT(), 'worker #0 ready');
           firstRlottieWorker.addListener('frame', onFrame);
@@ -131,7 +131,7 @@ var RLottie = (function () {
           } else {
             for (var workerNum = 1; workerNum < rlottie.WORKERS_LIMIT; workerNum++) {
               (function(workerNum) {
-                var rlottieWorker = rlottieWorkers[workerNum] = new QueryableWorker('/js/tgsticker-worker.js?12');
+                var rlottieWorker = rlottieWorkers[workerNum] = new QueryableWorker('./js/tgsticker-worker.js?12');
                 rlottieWorker.addListener('ready', function () {
                   console.log(dT(), 'worker #' + workerNum + ' ready');
                   rlottieWorker.addListener('frame', onFrame);
