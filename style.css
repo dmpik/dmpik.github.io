@@ -1,6 +1,6 @@
-body {
+body, table {
   font-family: Verdana, Tahoma;
-  font-size: 10px;
+  font-size: 18;
 }
 
 p{
