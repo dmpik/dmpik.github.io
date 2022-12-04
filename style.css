@@ -1,13 +1,12 @@
-body, table {
+.body {
   font-family: Verdana, Tahoma;
-  font-size: 18;
 }
 
-p{
+.p{
   margin-left: 50px 0;
 }
 
-q {
+.q {
   font-weight: bold;
   border: 2px solid #dedede;
   background-color: #f1f1f1;
@@ -16,19 +15,19 @@ q {
   margin: 10px 0;
   margin-left: 10px 0;
 }
-q:link {
+.q:link {
   background-color: #000;
   cursor: pointer;
 }
-q:visited {
+.q:visited {
   background-color: #000;
   cursor: pointer;
 }
-q:hover {
+.q:hover {
   background-color: #B5B5B5;
   cursor: pointer;
 }
-q:active {
+.q:active {
   background-color: #000;
   cursor: pointer;
 }
